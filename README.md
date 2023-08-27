@@ -4,3 +4,5 @@
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" height="200px" width="335px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=K-Saikrishnan&theme=radical&langs_count=8&layout=compact" />
 </a>
+
+[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=fe92feaef5e1969e5582fd3db5ec68fb)](https://gist.github.com/K-Saikrishnan/fe92feaef5e1969e5582fd3db5ec68fb/)
