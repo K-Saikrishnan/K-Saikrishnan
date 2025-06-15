@@ -1,0 +1,57 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "extends": [
+    "config:best-practices",
+
+    ":automergeDigest",
+    ":automergeLinters",
+    ":automergeMinor",
+    ":automergePatch",
+    ":automergeTesters",
+    ":automergeTypes",
+    ":enableVulnerabilityAlerts",
+    ":label(deps)",
+    ":maintainLockFilesWeekly",
+    ":pinVersions",
+    ":prConcurrentLimit20",
+    ":prHourlyLimit4",
+    ":semanticCommits",
+    ":semanticCommitScope(deps)",
+    ":semanticCommitTypeAll(build)",
+    "schedule:automergeWeekends",
+    "schedule:weekends",
+
+    "security:openssf-scorecard",
+    "mergeConfidence:all-badges",
+
+    "group:linters",
+    "group:jsTest"
+  ],
+
+  "dependencyDashboardLabels": ["deps"],
+  "internalChecksAsSuccess": true,
+  "minimumReleaseAge": "14 days",
+  "postUpdateOptions": ["npmDedupe"],
+  "prTitleStrict": true,
+
+  "prBodyDefinitions": {
+    "OpenSSF": ""
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["**"],
+      "prBodyColumns": [
+        "Package",
+        "Type",
+        "Update",
+        "Change",
+        "Age",
+        "Adoption",
+        "Passing",
+        "Confidence",
+        "OpenSSF"
+      ]
+    }
+  ]
+}
