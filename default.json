@@ -19,7 +19,6 @@
     ":semanticCommits",
     ":semanticCommitScope(deps)",
     ":semanticCommitTypeAll(build)",
-    "schedule:automergeWeekends",
     "schedule:weekends",
 
     "security:openssf-scorecard",
