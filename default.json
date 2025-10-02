@@ -14,7 +14,7 @@
     ":label(deps)",
     ":maintainLockFilesWeekly",
     ":pinVersions",
-    ":prConcurrentLimit20",
+    ":prConcurrentLimit10",
     ":prHourlyLimit4",
     ":semanticCommits",
     ":semanticCommitScope(deps)",
