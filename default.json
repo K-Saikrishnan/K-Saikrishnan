@@ -10,6 +10,7 @@
     ":automergePatch",
     ":automergeTesters",
     ":automergeTypes",
+    ":enablePreCommit",
     ":enableVulnerabilityAlerts",
     ":label(deps)",
     ":maintainLockFilesWeekly",
