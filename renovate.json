@@ -7,7 +7,6 @@
     ":automergeDigest",
     ":automergeLinters",
     ":automergeMinor",
-    ":automergePatch",
     ":automergeTesters",
     ":automergeTypes",
     ":enablePreCommit",
