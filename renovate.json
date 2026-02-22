@@ -24,6 +24,7 @@
     "security:openssf-scorecard",
     "mergeConfidence:all-badges",
 
+    "group:allDigest",
     "group:linters",
     "group:jsTest"
   ],
