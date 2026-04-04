@@ -30,8 +30,10 @@
   ],
 
   "dependencyDashboardLabels": ["deps"],
+  "dependencyDashboardOSVVulnerabilitySummary": "all",
   "internalChecksAsSuccess": true,
   "minimumReleaseAge": "14 days",
+  "osvVulnerabilityAlerts": true,
   "postUpdateOptions": ["npmDedupe"],
   "prTitleStrict": true,
 
@@ -52,9 +54,19 @@
         "Confidence",
         "OpenSSF"
       ]
+    },
+    {
+      "groupName": "gh-actions-docker",
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["docker/**"]
+    },
+    {
+      "groupName": "pre-commit",
+      "matchManagers": ["pre-commit"]
+    },
+    {
+      "groupName": "astral-sh",
+      "matchPackageNames": ["**/astral-sh/**", "ruff", "ty", "uv", "uv_build"]
     }
-  ],
-
-  "dependencyDashboardOSVVulnerabilitySummary": "all",
-  "osvVulnerabilityAlerts": true
+  ]
 }
