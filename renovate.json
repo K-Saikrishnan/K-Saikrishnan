@@ -61,7 +61,10 @@
     },
     {
       "groupName": "python-astral-sh",
-      "matchPackagePatterns": ["ruff", "ty"]
+      "matchPackageNames": [
+        "/ruff/",
+        "/ty/"
+      ]
     },
     {
       "groupName": "gh-actions-docker",
