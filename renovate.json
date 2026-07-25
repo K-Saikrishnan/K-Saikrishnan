@@ -50,7 +50,7 @@
       "groupName": "gh-actions-all",
       "matchManagers": ["github-actions"]
     }
-  ]
+  ],
 
   "registryAliases": {
     "dhi.io": "dhi.io"
