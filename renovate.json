@@ -36,10 +36,7 @@
   "osvVulnerabilityAlerts": true,
   "postUpdateOptions": ["npmDedupe"],
   "prTitleStrict": true,
-
-  "prBodyDefinitions": {
-    "OpenSSF": ""
-  },
+  
   "packageRules": [
     {
       "groupName": "pre-commit",
@@ -52,6 +49,18 @@
     {
       "groupName": "gh-actions-all",
       "matchManagers": ["github-actions"]
+    }
+  ]
+
+  "registryAliases": {
+    "dhi.io": "dhi.io"
+  },
+  "hostRules": [
+    {
+      "matchHost": "dhi.io",
+      "hostType": "docker",
+      "username": "{{ secrets.DOCKER_USERNAME }}",
+      "password": "{{ secrets.DOCKER_PAT }}"
     }
   ]
 }
