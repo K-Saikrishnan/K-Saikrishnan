@@ -55,11 +55,7 @@
         "OpenSSF"
       ]
     },
-    {
-      "groupName": "gh-actions-docker",
-      "matchManagers": ["github-actions"],
-      "matchPackageNames": ["docker/**"]
-    },
+    
     {
       "groupName": "pre-commit",
       "matchManagers": ["pre-commit"]
