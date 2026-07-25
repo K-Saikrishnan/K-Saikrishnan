@@ -67,6 +67,10 @@
     {
       "groupName": "astral-sh",
       "matchPackageNames": ["**/astral-sh/**", "ruff", "ty", "uv", "uv_build"]
+    },
+    {
+      "groupName": "gh-actions-all",
+      "matchManagers": ["github-actions"]
     }
   ]
 }
