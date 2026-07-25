@@ -32,7 +32,7 @@
   "dependencyDashboardLabels": ["deps"],
   "dependencyDashboardOSVVulnerabilitySummary": "all",
   "internalChecksAsSuccess": true,
-  "minimumReleaseAge": "14 days",
+  "minimumReleaseAge": "7 days",
   "osvVulnerabilityAlerts": true,
   "postUpdateOptions": ["npmDedupe"],
   "prTitleStrict": true,
