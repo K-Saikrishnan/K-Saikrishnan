@@ -42,21 +42,6 @@
   },
   "packageRules": [
     {
-      "matchPackageNames": ["**"],
-      "prBodyColumns": [
-        "Package",
-        "Type",
-        "Update",
-        "Change",
-        "Age",
-        "Adoption",
-        "Passing",
-        "Confidence",
-        "OpenSSF"
-      ]
-    },
-    
-    {
       "groupName": "pre-commit",
       "matchManagers": ["pre-commit"]
     },
