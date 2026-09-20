@@ -28,6 +28,7 @@
     "group:linters",
     "group:jsTest"
   ],
+  "ignorePresets": ["security:minimumReleaseAgeNpm"],
 
   "dependencyDashboardLabels": ["deps"],
   "dependencyDashboardOSVVulnerabilitySummary": "all",
