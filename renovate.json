@@ -25,6 +25,7 @@
     "mergeConfidence:all-badges",
 
     "group:allDigest",
+    "group:definitelyTyped",
     "group:linters",
     "group:jsTest"
   ],
